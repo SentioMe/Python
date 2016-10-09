@@ -4,13 +4,13 @@ from pygame.locals import *
 pygame.init()
 
 FPS = 30
-fpsClock = pygame.time.Clock()
+fpsClock = pygame.time.Clock()                              #Create a instance of pygame timer
 
 DISPLAYSURF = pygame.display.set_mode((400, 300), 0, 32)
 pygame.display.set_caption('Animation')
 
 WHITE = (255, 255, 255)
-catImg = pygame.image.load('cat.png')
+catImg = pygame.image.load('../ImageFiles/cat.png')                       #Load to memory from image file in directory
 catx = 10
 caty = 10
 direction = 'right'
@@ -35,7 +35,7 @@ while True:
         if caty == 10:
             direction = 'right'
 
-    DISPLAYSURF.blit(catImg, (catx, caty))
+    DISPLAYSURF.blit(catImg, (catx, caty))              #blit() is mean, Copied source to surface
 
     for event in pygame.event.get():
         if event.type == QUIT:
@@ -43,4 +43,4 @@ while True:
             sys.exit()
 
     pygame.display.update()
-    fpsClock.tick(FPS)
+    fpsClock.tick(FPS)                                  #tick() is mean delayed frame with passed rate
