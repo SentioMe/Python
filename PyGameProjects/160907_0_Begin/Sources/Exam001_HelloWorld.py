@@ -19,4 +19,3 @@ while True:                                           #game loop
 # it this mean, C++ Console methode
 # pygame is same C++ WinAPI Framework
 # 'print', 'input' is CLI methode
-
