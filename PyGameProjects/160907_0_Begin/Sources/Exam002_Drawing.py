@@ -14,7 +14,8 @@ BLUE    = (0,     0,    255)
 
 DISPLAYSURF.fill(WHITE)             #Surface.fill(color) : Filled a surface with coloar
 
-'''pygame.draw : Draw a figure
+'''
+pygame.draw : Draw a figure
                  If 'width' parameter bigger then 0, draw a non filled figure
 '''
 pygame.draw.polygon(DISPLAYSURF, GREEN, ((146, 0), (291, 106), (236, 277), (56, 277), (0, 106)))
@@ -25,7 +26,8 @@ pygame.draw.circle(DISPLAYSURF, BLUE, (300, 50), 20, 0)
 pygame.draw.ellipse(DISPLAYSURF, RED, (300, 250, 40, 80), 1)
 pygame.draw.rect(DISPLAYSURF, RED, (200, 150, 100, 50))
 
-'''pygame.PixelArray(Surface) : Return pixels of surface,
+'''
+pygame.PixelArray(Surface) : Return pixels of surface,
                                 We will access random pixel that used '[]' operator
 '''
 pixObj = pygame.PixelArray(DISPLAYSURF)

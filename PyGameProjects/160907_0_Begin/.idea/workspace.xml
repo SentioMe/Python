@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="239db799-2050-44b5-80da-abdcba28c547" name="Default" comment="1. pygame project workspace update&#10;2. python practice project commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sources/Exam002_Drawing.py" />
+    <list default="true" id="239db799-2050-44b5-80da-abdcba28c547" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sources/Exam003_Animation.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/GameSources/Main.py" afterPath="$PROJECT_DIR$/Sources/Exam001_HelloWorld.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/Exam002_Drawing.py" afterPath="$PROJECT_DIR$/Sources/Exam002_Drawing.py" />
     </list>
     <ignored path="160907_0_Begin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exam002_Drawing.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Exam002_Drawing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sources/Exam002_Drawing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="475">
+              <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exam003_Animation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sources/Exam003_Animation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -67,14 +79,15 @@
         <option value="$PROJECT_DIR$/GameSources/Main.py" />
         <option value="$PROJECT_DIR$/Sources/Exam001_HelloWorld.py" />
         <option value="$PROJECT_DIR$/Sources/Exam002_Drawing.py" />
+        <option value="$PROJECT_DIR$/Sources/Exam003_Animation.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="652" />
+    <option name="y" value="142" />
+    <option name="width" value="995" />
+    <option name="height" value="946" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -134,7 +147,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Python_Practice/01_JumpToPython" />
   </component>
-  <component name="RunManager" selected="Python.Exam002_Drawing">
+  <component name="RunManager" selected="Python.Exam003_Animation">
     <configuration default="false" name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,6 +178,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="160907_0_Begin" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sources/Exam002_Drawing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Exam003_Animation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sources" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="160907_0_Begin" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sources/Exam003_Animation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -303,14 +333,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.Main" />
       <item index="1" class="java.lang.String" itemvalue="Python.Exam002_Drawing" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Exam003_Animation" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.Exam002_Drawing" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Main" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.Exam003_Animation" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Exam002_Drawing" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -356,19 +388,26 @@
       <option name="project" value="LOCAL" />
       <updated>1473340222243</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1. GameSources Directory and Main.py rename&#10;2. Add Drawing test python file">
+      <created>1475990330137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1475990330137</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="652" y="142" width="995" height="946" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12170706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2413793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35307783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30694142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32512316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -398,7 +437,8 @@
     <MESSAGE value="test file remove" />
     <MESSAGE value="pygame set" />
     <MESSAGE value="1. pygame project workspace update&#10;2. python practice project commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. pygame project workspace update&#10;2. python practice project commit" />
+    <MESSAGE value="1. GameSources Directory and Main.py rename&#10;2. Add Drawing test python file" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. GameSources Directory and Main.py rename&#10;2. Add Drawing test python file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -482,6 +522,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/pygame/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="284" column="14" selection-start-line="284" selection-start-column="4" selection-end-line="284" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/Exam001_HelloWorld.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -492,18 +540,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/pygame/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Sources/Exam002_Drawing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="284" column="14" selection-start-line="284" selection-start-column="4" selection-end-line="284" selection-end-column="14" />
+        <state relative-caret-position="475">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/597817284/pygame/surface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Exam002_Drawing.py">
+    <entry file="file://$PROJECT_DIR$/Sources/Exam003_Animation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="266">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
