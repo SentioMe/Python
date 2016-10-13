@@ -38,6 +38,9 @@ assert len(COLORS) == len(LIGHT_COLORS), "Each colors must have light colors"
 TEMPLATE_WIDTH      =   5
 TEMPLATE_HEIGHT     =   5
 
+'''
+Write rotated block template in all pieces
+'''
 S_SHAPE_TEMPLATE    =   [['.....',
                           '.....',
                           '..00.',
@@ -171,6 +174,7 @@ def main():
 def runGame():
 
     board = getBlankBoard()
+    # All Pieces moving check with timer
     last_move_down_time = time.time()
     last_move_sideways_time = time.time()
     last_fall_time = time.time()
@@ -186,17 +190,20 @@ def runGame():
     next_piece = getNewPiece()
 
     while True:
+        #Landed piece, control piece is changed new piece, and new piece assign getNewPiece()
         if falling_piece == None:
             falling_piece = next_piece
             next_piece = getNewPiece()
             last_fall_time = time.time()
 
+            #Check GameOver state, need landed piece
             if not isValidPosition(board, falling_piece):
                 return
 
         checkForQuit()
         for event in pygame.event.get():
             if event.type == KEYUP:
+                #If puased game, erase game screen, blocking cheating
                 if (event.key == K_p):
                     DISPLAY_SURF.fill(BG_COLOR)
                     pygame.mixer.music.stop()
@@ -205,6 +212,7 @@ def runGame():
                     last_fall_time = time.time()
                     last_move_down_time = time.time()
                     last_move_sideways_time = time.time()
+                #Key of moving control is up it means stop move control
                 elif (event.key == K_LEFT or event.key == K_a):
                     moving_left = False
                 elif (event.key == K_RIGHT or event.key == K_d):
@@ -212,6 +220,19 @@ def runGame():
                 elif (event.key == K_DOWN or event.key == K_s):
                     moving_down = False
             elif event.type == KEYDOWN:
+                '''
+                Slide : isValidPosition() method params, adj_x and adj_y, are moving check values
+                ex) If want you left move, you must check current piece x - 1 point is valid
+
+                Rotate : Rotation + 1 or -1, is act in piece template
+                         Template size difference in all pieces
+                         You must modding operation
+                         ex) L type template size 4, if you clicked lager 4 rotate but result 0
+                         0 % 4(size) = 0, 1 % 4 = 1, ... 4 % 4 = 0 ... n % size = result (smaller then size)
+
+                Fast move : Search piece drop position in bottom to top looping
+                            And result 'i' value + 1 it is piece drop position
+                '''
                 if (event.key == K_LEFT or event.key == K_a) and isValidPosition(board, falling_piece, adj_x=-1):
                     falling_piece['x'] -= 1
                     moving_left = True
@@ -222,7 +243,7 @@ def runGame():
                     moving_right = True
                     moving_left = False
                     last_move_sideways_time = time.time()
-                elif (event.key == K_UP or event.key == K_w) :
+                elif (event.key == K_UP or event.key == K_w):
                     falling_piece['rotation'] = (falling_piece['rotation'] + 1) % len(SHAPES[falling_piece['shape']])
                     if not isValidPosition(board, falling_piece):
                         falling_piece['rotation'] =  (falling_piece['rotation'] - 1) % len(SHAPES[falling_piece['shape']])
@@ -244,6 +265,7 @@ def runGame():
                             break
                     falling_piece['y'] += i - 1
 
+        #If moving state and checked time(if pressed time) then one block size move
         if (moving_left or moving_right) and time.time() - last_move_sideways_time > MOVE_SIDE_WAYS_FREQ:
             if moving_left and isValidPosition(board, falling_piece, adj_x=-1):
                 falling_piece['x'] -= 1
@@ -256,8 +278,11 @@ def runGame():
             last_move_down_time = time.time()
 
         if time.time() - last_fall_time > fall_freq:
+            #if collide piece then landing process
             if not isValidPosition(board, falling_piece, adj_y=1):
+                #board data change (copied piece color value(int), it is mean, copied cell is not blank -> collision able)
                 addToBoard(board, falling_piece)
+                #clear line check and update point and game level
                 score += removeCompleteLines(board)
                 level, fall_freq = calculateLevelAndFallFreq(score)
                 falling_piece = None
@@ -326,6 +351,7 @@ def calculateLevelAndFallFreq(score):
 
 def getNewPiece():
 
+    # creat piece with dictionary container (key [shape, rotation, x, y, color], value [string, int, int, int, int(color index)])
     shape = random.choice(list(SHAPES.keys()))
     new_piece = {'shape':shape,
                  'rotation':random.randint(0, len(SHAPES[shape]) - 1),
