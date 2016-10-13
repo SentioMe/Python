@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="239db799-2050-44b5-80da-abdcba28c547" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundFiles/beep1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundFiles/beep2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundFiles/beep3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundFiles/beep4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SampleGames/161012_1_Simulate.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SampleGames/161013_0_Wormy.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="160907_0_Begin.iws" />
@@ -26,14 +22,14 @@
     <favorites_list name="160907_0_Begin" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="161012_1_Simulate.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SampleGames/161012_1_Simulate.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="161013_0_Wormy.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SampleGames/161013_0_Wormy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-194">
-              <caret line="125" column="54" selection-start-line="125" selection-start-column="54" selection-end-line="125" selection-end-column="54" />
+            <state relative-caret-position="-318">
+              <caret line="182" column="69" selection-start-line="182" selection-start-column="69" selection-end-line="182" selection-end-column="69" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,13 +60,14 @@
         <option value="$PROJECT_DIR$/SampleGames/161009_0_MemoryPuzzle.py" />
         <option value="$PROJECT_DIR$/SampleGames/161012_0_SlidePuzzle.py" />
         <option value="$PROJECT_DIR$/SampleGames/161012_1_Simulate.py" />
+        <option value="$PROJECT_DIR$/SampleGames/161013_0_Wormy.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -98,7 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -130,10 +126,6 @@
               <option name="myItemId" value="160907_0_Begin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoundFiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -149,19 +141,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="160907_0_Begin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="160907_0_Begin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,24 +152,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Python_Practice/01_JumpToPython" />
   </component>
-  <component name="RunManager" selected="Python.161012_1_Simulate">
-    <configuration default="false" name="Exam003_Animation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sources" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="160907_0_Begin" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sources/Exam003_Animation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.161013_0_Wormy">
     <configuration default="false" name="Exam005_Sound" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -251,6 +217,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="160907_0_Begin" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SampleGames/161012_1_Simulate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="161013_0_Wormy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SampleGames" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="160907_0_Begin" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SampleGames/161013_0_Wormy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -390,19 +373,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Exam003_Animation" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Exam005_Sound" />
-      <item index="2" class="java.lang.String" itemvalue="Python.161009_0_MemoryPuzzle" />
-      <item index="3" class="java.lang.String" itemvalue="Python.161012_0_SlidePuzzle" />
-      <item index="4" class="java.lang.String" itemvalue="Python.161012_1_Simulate" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Exam005_Sound" />
+      <item index="1" class="java.lang.String" itemvalue="Python.161009_0_MemoryPuzzle" />
+      <item index="2" class="java.lang.String" itemvalue="Python.161012_0_SlidePuzzle" />
+      <item index="3" class="java.lang.String" itemvalue="Python.161012_1_Simulate" />
+      <item index="4" class="java.lang.String" itemvalue="Python.161013_0_Wormy" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.161012_1_Simulate" />
-        <item index="1" class="java.lang.String" itemvalue="Python.161012_0_SlidePuzzle" />
-        <item index="2" class="java.lang.String" itemvalue="Python.161009_0_MemoryPuzzle" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Exam005_Sound" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Exam003_Animation" />
+        <item index="0" class="java.lang.String" itemvalue="Python.161013_0_Wormy" />
+        <item index="1" class="java.lang.String" itemvalue="Python.161012_1_Simulate" />
+        <item index="2" class="java.lang.String" itemvalue="Python.161012_0_SlidePuzzle" />
+        <item index="3" class="java.lang.String" itemvalue="Python.161009_0_MemoryPuzzle" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Exam005_Sound" />
       </list>
     </recent_temporary>
   </component>
@@ -497,23 +480,30 @@
       <option name="project" value="LOCAL" />
       <updated>1476249969723</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1. Write a sample game 'Simulate' in book 'Making Games with Python &amp; Pygame'&#10;   1) needs sound add&#10;   2) I'm not understand game play rule&#10;      =&gt; pass">
+      <created>1476280731895</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1476280731895</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1227608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12302006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35307783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.324295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.324295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42407808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42407808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -546,21 +536,32 @@
     <MESSAGE value="1. Write a sample game in book 'Making Games with Python &amp; Pygame'" />
     <MESSAGE value="1. Write notes, check source code" />
     <MESSAGE value="1. Write a sample game 'SlidePuzzle' in book 'Making Games with Python &amp; Pygame'" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Write a sample game 'SlidePuzzle' in book 'Making Games with Python &amp; Pygame'" />
+    <MESSAGE value="1. Write a sample game 'Simulate' in book 'Making Games with Python &amp; Pygame'&#10;   1) needs sound add&#10;   2) I'm not understand game play rule&#10;      =&gt; pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Write a sample game 'Simulate' in book 'Making Games with Python &amp; Pygame'&#10;   1) needs sound add&#10;   2) I'm not understand game play rule&#10;      =&gt; pass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="26" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SampleGames/161009_0_MemoryPuzzle.py">
+    <entry file="file://$PROJECT_DIR$/SampleGames/161013_0_Wormy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="false" />
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleGames/161013_0_Wormy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -569,9 +570,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleGames/161009_0_MemoryPuzzle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -673,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="3575" column="8" selection-start-line="3575" selection-start-column="8" selection-end-line="3575" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,9 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -763,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
           <caret line="1579" column="0" selection-start-line="1579" selection-start-column="0" selection-end-line="1579" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,16 +769,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SampleGames/161012_1_Simulate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="125" column="54" selection-start-line="125" selection-start-column="54" selection-end-line="125" selection-end-column="54" />
+        <state relative-caret-position="262">
+          <caret line="149" column="63" selection-start-line="149" selection-start-column="63" selection-end-line="149" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleGames/161013_0_Wormy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="182" column="69" selection-start-line="182" selection-start-column="69" selection-end-line="182" selection-end-column="69" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
