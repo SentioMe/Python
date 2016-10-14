@@ -163,9 +163,9 @@ def main():
     showTextScreen('Tetromino')
     while True:
         if random.randint(0, 1) == 0:
-            pygame.mixer.music.load('../SoundFiles/tetrisb.mid')
+            pygame.mixer.music.load('../SoundFiles/Tetromino/tetrisb.mid')
         else:
-            pygame.mixer.music.load('../SoundFiles/tetrisc.mid')
+            pygame.mixer.music.load('../SoundFiles/Tetromino/tetrisc.mid')
         pygame.mixer.music.play(-1, 0.0)
         runGame()
         pygame.mixer.music.stop()

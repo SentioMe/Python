@@ -45,10 +45,10 @@ def main():
     info_rect = info_surf.get_rect()
     info_rect.topleft = (10, WINDOW_HEIGHT - 25)
 
-    BEEP1 = pygame.mixer.Sound('../SoundFiles/beep1.ogg')
-    BEEP2 = pygame.mixer.Sound('../SoundFiles/beep2.ogg')
-    BEEP3 = pygame.mixer.Sound('../SoundFiles/beep3.ogg')
-    BEEP4 = pygame.mixer.Sound('../SoundFiles/beep4.ogg')
+    BEEP1 = pygame.mixer.Sound('../SoundFiles/Simulate/beep1.ogg')
+    BEEP2 = pygame.mixer.Sound('../SoundFiles/Simulate/beep2.ogg')
+    BEEP3 = pygame.mixer.Sound('../SoundFiles/Simulate/beep3.ogg')
+    BEEP4 = pygame.mixer.Sound('../SoundFiles/Simulate/beep4.ogg')
 
     pattern = []
     current_step = 0
