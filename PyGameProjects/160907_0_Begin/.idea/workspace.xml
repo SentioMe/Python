@@ -2,47 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="239db799-2050-44b5-80da-abdcba28c547" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/SquirrelEatSquirrel/gameicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/SquirrelEatSquirrel/grass1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/SquirrelEatSquirrel/grass2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/SquirrelEatSquirrel/grass3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/SquirrelEatSquirrel/grass4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/SquirrelEatSquirrel/squirrel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/Grass_Block.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/Plain_Block.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/RedSelector.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/Rock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/Selector.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/Star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/Tree_Short.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/Tree_Tall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/Tree_Ugly.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/Wall_Block_Tall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/Wood_Block_Tall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/boy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/catgirl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/horngirl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/pinkgirl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/princess.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/star_solved.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageFiles/StarPusher/star_title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundFiles/Simulate/beep1.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundFiles/Simulate/beep2.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundFiles/Simulate/beep3.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundFiles/Simulate/beep4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundFiles/Tetromino/tetrisb.mid" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundFiles/Tetromino/tetrisc.mid" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataFiles/StarPusher/starPusherLevels.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SampleGames/161013_2_SquirrelEatSquirrel.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SoundFiles/beep1.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SoundFiles/beep2.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SoundFiles/beep3.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SoundFiles/beep4.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SoundFiles/tetrisb.mid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SoundFiles/tetrisc.mid" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SampleGames/161014_0_StarPusher.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SampleGames/161012_1_Simulate.py" afterPath="$PROJECT_DIR$/SampleGames/161012_1_Simulate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SampleGames/161013_1_Tetromino.py" afterPath="$PROJECT_DIR$/SampleGames/161013_1_Tetromino.py" />
     </list>
     <ignored path="160907_0_Begin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,46 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="161013_0_Wormy.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SampleGames/161013_0_Wormy.py">
+      <file leaf-file-name="161014_0_StarPusher.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SampleGames/161014_0_StarPusher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+            <state relative-caret-position="338">
+              <caret line="108" column="70" selection-start-line="108" selection-start-column="70" selection-end-line="108" selection-end-column="70" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="161013_2_SquirrelEatSquirrel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SampleGames/161013_2_SquirrelEatSquirrel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4142">
-              <caret line="44" column="81" selection-start-line="44" selection-start-column="81" selection-end-line="44" selection-end-column="81" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="161012_1_Simulate.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SampleGames/161012_1_Simulate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exam005_Sound.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/Exam005_Sound.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -134,6 +63,7 @@
         <option value="$PROJECT_DIR$/SampleGames/161013_1_Tetromino.py" />
         <option value="$PROJECT_DIR$/SampleGames/161013_2_SquirrelEatSquirrel.py" />
         <option value="$PROJECT_DIR$/SampleGames/161012_1_Simulate.py" />
+        <option value="$PROJECT_DIR$/SampleGames/161014_0_StarPusher.py" />
       </list>
     </option>
   </component>
@@ -228,10 +158,6 @@
               <option name="myItemId" value="160907_0_Begin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageFiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -240,6 +166,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="160907_0_Begin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataFiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StarPusher" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -253,24 +187,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Python_Practice/01_JumpToPython" />
   </component>
-  <component name="RunManager" selected="Python.161013_2_SquirrelEatSquirrel">
-    <configuration default="false" name="161012_0_SlidePuzzle" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SampleGames" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="160907_0_Begin" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SampleGames/161012_0_SlidePuzzle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.161014_0_StarPusher">
     <configuration default="false" name="161012_1_Simulate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -335,6 +252,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="160907_0_Begin" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SampleGames/161013_2_SquirrelEatSquirrel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="161014_0_StarPusher" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SampleGames" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="160907_0_Begin" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SampleGames/161014_0_StarPusher.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -474,19 +408,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.161012_0_SlidePuzzle" />
-      <item index="1" class="java.lang.String" itemvalue="Python.161012_1_Simulate" />
-      <item index="2" class="java.lang.String" itemvalue="Python.161013_0_Wormy" />
-      <item index="3" class="java.lang.String" itemvalue="Python.161013_1_Tetromino" />
-      <item index="4" class="java.lang.String" itemvalue="Python.161013_2_SquirrelEatSquirrel" />
+      <item index="0" class="java.lang.String" itemvalue="Python.161012_1_Simulate" />
+      <item index="1" class="java.lang.String" itemvalue="Python.161013_0_Wormy" />
+      <item index="2" class="java.lang.String" itemvalue="Python.161013_1_Tetromino" />
+      <item index="3" class="java.lang.String" itemvalue="Python.161013_2_SquirrelEatSquirrel" />
+      <item index="4" class="java.lang.String" itemvalue="Python.161014_0_StarPusher" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.161013_2_SquirrelEatSquirrel" />
-        <item index="1" class="java.lang.String" itemvalue="Python.161013_1_Tetromino" />
-        <item index="2" class="java.lang.String" itemvalue="Python.161013_0_Wormy" />
-        <item index="3" class="java.lang.String" itemvalue="Python.161012_1_Simulate" />
-        <item index="4" class="java.lang.String" itemvalue="Python.161012_0_SlidePuzzle" />
+        <item index="0" class="java.lang.String" itemvalue="Python.161014_0_StarPusher" />
+        <item index="1" class="java.lang.String" itemvalue="Python.161013_2_SquirrelEatSquirrel" />
+        <item index="2" class="java.lang.String" itemvalue="Python.161013_1_Tetromino" />
+        <item index="3" class="java.lang.String" itemvalue="Python.161013_0_Wormy" />
+        <item index="4" class="java.lang.String" itemvalue="Python.161012_1_Simulate" />
       </list>
     </recent_temporary>
   </component>
@@ -609,30 +543,46 @@
       <option name="project" value="LOCAL" />
       <updated>1476360209742</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1. Write a sample game 'Squirrel Eat Squirrel' in book 'Making Games with Python &amp; Pygame'&#10;2. Change resources pass&#10;3. Add Star Pusher image and data files">
+      <created>1476420886351</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1476420886351</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1227608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35307783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.49789253" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42407808" sideWeight="0.50632244" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35249457" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.49578503" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.324295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42407808" sideWeight="0.49367756" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.324295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42407808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -681,7 +631,8 @@
     <MESSAGE value="1. Write a sample game 'Wormy' in book 'Making Games with Python &amp; Pygame'&#10;=&gt; 1) This game have 3 plots (Start, InGame, GamOver) and, First scene only one time rendering&#10;     2) First scene used rotate surface method (refernce : pygame.transfrom)" />
     <MESSAGE value="1. Write a sample game 'Tetromino' in book 'Making Games with Python &amp; Pygame'&#10;=&gt; 1) This game is clone to 'Tetris'&#10;     2) Piece type template and use dictionary variable data structure" />
     <MESSAGE value="1. Check a source" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Check a source" />
+    <MESSAGE value="1. Write a sample game 'Squirrel Eat Squirrel' in book 'Making Games with Python &amp; Pygame'&#10;2. Change resources pass&#10;3. Add Star Pusher image and data files" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Write a sample game 'Squirrel Eat Squirrel' in book 'Making Games with Python &amp; Pygame'&#10;2. Change resources pass&#10;3. Add Star Pusher image and data files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -692,7 +643,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="40" />
+      <option name="time" value="58" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1006,6 +957,24 @@
         <state relative-caret-position="661">
           <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataFiles/StarPusher/starPusherLevels.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleGames/161014_0_StarPusher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="108" column="70" selection-start-line="108" selection-start-column="70" selection-end-line="108" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
